@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Book</title>
+</head>
+<body>
+    <h2>Add New Book</h2>
+    <form action="add_book.php" method="post">
+        <label>Title:</label><input type="text" name="titre" required><br>
+        <label>Genre:</label><input type="text" name="genre" required><br>
+        <label>Author ID:</label><input type="number" name="auteur_id" required><br>
+        <label>Availability:</label><input type="checkbox" name="disponibilite" value="1" checked><br>
+        <input type="submit" value="Add Book">
+    </form>
+</body>
+</html>
